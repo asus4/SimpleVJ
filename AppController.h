@@ -24,6 +24,8 @@
 	IBOutlet NSButton* isPauseB;
 	IBOutlet NSButton* isLoopA;		// ループトグルボタン
 	IBOutlet NSButton* isLoopB;
+	IBOutlet NSSlider* timescaleA;
+	IBOutlet NSSlider* timescaleB;	// タイムスケール
 	IBOutlet NSImageView* previewA;	// プレビューウィンドウ
 	IBOutlet NSImageView* previewB;
 	
@@ -50,6 +52,8 @@
 - (IBAction) changePauseB:(NSButton*)sender;
 - (IBAction) changeLoopA:(NSButton*)sender;		// ループ　（トグルボタン）
 - (IBAction) changeLoopB:(NSButton*)sender;
+- (IBAction) changeTimeScaleA:(NSSlider*)sender; // タイムスケール変更
+- (IBAction) changeTimeScaleB:(NSSlider*)sender;
 
 
 - (IBAction) changeFade:(NSSlider*)sender;				// フェーダー(スライダー)かわる
@@ -76,6 +80,9 @@
 - (float) getQcPositionB;
 - (void) setQcTimeA:(float) time;
 - (void) setQcTimeB:(float) time;
+- (void) setQcTimeScaleA:(float) time;
+- (void) setQcTimeScaleB:(float) time;
+
 //- (float) moduro:(float)left by:(float)right;
 
 @end

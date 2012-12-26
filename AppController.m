@@ -99,6 +99,10 @@
 	}
 	[_pathA setString: filePath];
 	[filePath release];
+	
+	// reset timescale
+	[self setQcTimeScaleA:1.0f];
+	[timescaleA setFloatValue:1.0f];
 }
 
 - (IBAction) changePathB:(id)sender
@@ -117,6 +121,10 @@
 	}
 	[_pathB setString: filePath];
 	[filePath release];
+	
+	// reset timescale
+	[self setQcTimeScaleA:1.0f];
+	[timescaleA setFloatValue:1.0f];
 }
 
 - (IBAction) changePositionA:(NSSlider*)sender
@@ -176,6 +184,17 @@
 		[self setQcTimeB:[self getQcPositionB]];
 	}
 }
+
+- (IBAction) changeTimeScaleA:(NSSlider*)sender
+{
+	[self setQcTimeScaleA:[sender floatValue]];
+}
+
+- (IBAction) changeTimeScaleB:(NSSlider*)sender
+{
+	[self setQcTimeScaleB:[sender floatValue]];
+}
+
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -328,6 +347,16 @@
 	time -= [self getQcPatchTime];
 	//NSLog(@"set realtime B : %f",  time);
 	[qcView setValue:[NSNumber numberWithFloat:time] forInputKey:@"timeB"];
+}
+
+- (void) setQcTimeScaleA:(float) time
+{
+	[qcView setValue:[NSNumber numberWithFloat:time] forInputKey:@"timescaleA"];
+}
+
+- (void) setQcTimeScaleB:(float) time
+{
+	[qcView setValue:[NSNumber numberWithFloat:time] forInputKey:@"timescaleB"];
 }
 
 
