@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8441128C0BA76E9200F37770 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8441128B0BA76E9200F37770 /* Quartz.framework */; };
+		849818240BCF1CE50085CECA /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849818220BCF1CE50085CECA /* AppController.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CE31773C0F91F20C00EDD377 /* DragDropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE31773B0F91F20C00EDD377 /* DragDropImageView.m */; };
+		CE33E8CD1054F46200ED9B7A /* MixerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33E8CC1054F46200ED9B7A /* MixerWindow.m */; };
+		CE524D8F10BA8763006F80EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE524D8E10BA8763006F80EF /* CoreData.framework */; };
+		CE524D9E10BA8BC2006F80EF /* SimpleVJ.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CE524D9D10BA8BC2006F80EF /* SimpleVJ.xcdatamodel */; };
+		CE524DAC10BA8EC7006F80EF /* BankKeyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE524DAB10BA8EC7006F80EF /* BankKeyDelegate.m */; };
+		CE6C6F130F800B990067823E /* player.qtz in Resources */ = {isa = PBXBuildFile; fileRef = CE6C6F120F800B990067823E /* player.qtz */; };
+		CE6C70680F803BF60067823E /* QcWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C70670F803BF60067823E /* QcWindow.m */; };
+		CE6C70900F8044FB0067823E /* fullScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6C708F0F8044FB0067823E /* fullScreen.png */; };
+		CE6E397210B97AC8005380DB /* BankKeyPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E397110B97AC8005380DB /* BankKeyPanel.m */; };
+		CE6E397810B9817B005380DB /* BankKeyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E397710B9817B005380DB /* BankKeyImageView.m */; };
+		CE6E39E610B9A5A8005380DB /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6E39E510B9A5A8005380DB /* QTKit.framework */; };
+		CEAD087E0F9048E500B61871 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD087C0F9048E500B61871 /* MainMenu.xib */; };
+		CEB914920F8A72D3007783D2 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB914900F8A72D3007783D2 /* pause.png */; };
+		CEFD10DC10B869F1004802D4 /* simplevj_icon512.icns in Resources */ = {isa = PBXBuildFile; fileRef = CEFD10DB10B869F1004802D4 /* simplevj_icon512.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TakeoDesignFes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeoDesignFes_Prefix.pch; sourceTree = "<group>"; };
+		8441128B0BA76E9200F37770 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		849818220BCF1CE50085CECA /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		849818230BCF1CE50085CECA /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TakeoDesignFes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeoDesignFes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE31773A0F91F20C00EDD377 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
+		CE31773B0F91F20C00EDD377 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
+		CE33E8CB1054F46200ED9B7A /* MixerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixerWindow.h; sourceTree = "<group>"; };
+		CE33E8CC1054F46200ED9B7A /* MixerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixerWindow.m; sourceTree = "<group>"; };
+		CE524D8E10BA8763006F80EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		CE524D9D10BA8BC2006F80EF /* SimpleVJ.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SimpleVJ.xcdatamodel; sourceTree = "<group>"; };
+		CE524DAA10BA8EC7006F80EF /* BankKeyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankKeyDelegate.h; sourceTree = "<group>"; };
+		CE524DAB10BA8EC7006F80EF /* BankKeyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankKeyDelegate.m; sourceTree = "<group>"; };
+		CE6C6F120F800B990067823E /* player.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = player.qtz; sourceTree = "<group>"; };
+		CE6C70660F803BF60067823E /* QcWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QcWindow.h; sourceTree = "<group>"; };
+		CE6C70670F803BF60067823E /* QcWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QcWindow.m; sourceTree = "<group>"; };
+		CE6C708F0F8044FB0067823E /* fullScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullScreen.png; sourceTree = "<group>"; };
+		CE6E397010B97AC8005380DB /* BankKeyPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankKeyPanel.h; sourceTree = "<group>"; };
+		CE6E397110B97AC8005380DB /* BankKeyPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankKeyPanel.m; sourceTree = "<group>"; };
+		CE6E397610B9817B005380DB /* BankKeyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankKeyImageView.h; sourceTree = "<group>"; };
+		CE6E397710B9817B005380DB /* BankKeyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankKeyImageView.m; sourceTree = "<group>"; };
+		CE6E39E510B9A5A8005380DB /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		CEAD087D0F9048E500B61871 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CEB914900F8A72D3007783D2 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		CEFD10DB10B869F1004802D4 /* simplevj_icon512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = simplevj_icon512.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8441128C0BA76E9200F37770 /* Quartz.framework in Frameworks */,
+				CE6E39E610B9A5A8005380DB /* QTKit.framework in Frameworks */,
+				CE524D8F10BA8763006F80EF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				849818230BCF1CE50085CECA /* AppController.h */,
+				849818220BCF1CE50085CECA /* AppController.m */,
+				CE33E8CB1054F46200ED9B7A /* MixerWindow.h */,
+				CE33E8CC1054F46200ED9B7A /* MixerWindow.m */,
+				CE6C70660F803BF60067823E /* QcWindow.h */,
+				CE6C70670F803BF60067823E /* QcWindow.m */,
+				CE31773A0F91F20C00EDD377 /* DragDropImageView.h */,
+				CE31773B0F91F20C00EDD377 /* DragDropImageView.m */,
+				CE6E397010B97AC8005380DB /* BankKeyPanel.h */,
+				CE6E397110B97AC8005380DB /* BankKeyPanel.m */,
+				CE6E397610B9817B005380DB /* BankKeyImageView.h */,
+				CE6E397710B9817B005380DB /* BankKeyImageView.m */,
+				CE524DAA10BA8EC7006F80EF /* BankKeyDelegate.h */,
+				CE524DAB10BA8EC7006F80EF /* BankKeyDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE524D8E10BA8763006F80EF /* CoreData.framework */,
+				CE6E39E510B9A5A8005380DB /* QTKit.framework */,
+				8441128B0BA76E9200F37770 /* Quartz.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TakeoDesignFes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TakeoDesignFes */ = {
+			isa = PBXGroup;
+			children = (
+				CE524D9C10BA8B6E006F80EF /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TakeoDesignFes;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TakeoDesignFes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD10DB10B869F1004802D4 /* simplevj_icon512.icns */,
+				CEAD087C0F9048E500B61871 /* MainMenu.xib */,
+				CEB914900F8A72D3007783D2 /* pause.png */,
+				CE6C708F0F8044FB0067823E /* fullScreen.png */,
+				CE6C6F120F800B990067823E /* player.qtz */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE524D9C10BA8B6E006F80EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE524D9D10BA8BC2006F80EF /* SimpleVJ.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SimpleVJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleVJ" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVJ;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TakeoDesignFes;
+			productReference = 8D1107320486CEB800E47090 /* TakeoDesignFes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleVJ" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TakeoDesignFes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SimpleVJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				CE6C6F130F800B990067823E /* player.qtz in Resources */,
+				CE6C70900F8044FB0067823E /* fullScreen.png in Resources */,
+				CEAD087E0F9048E500B61871 /* MainMenu.xib in Resources */,
+				CEB914920F8A72D3007783D2 /* pause.png in Resources */,
+				CEFD10DC10B869F1004802D4 /* simplevj_icon512.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				849818240BCF1CE50085CECA /* AppController.m in Sources */,
+				CE6C70680F803BF60067823E /* QcWindow.m in Sources */,
+				CE31773C0F91F20C00EDD377 /* DragDropImageView.m in Sources */,
+				CE33E8CD1054F46200ED9B7A /* MixerWindow.m in Sources */,
+				CE6E397210B97AC8005380DB /* BankKeyPanel.m in Sources */,
+				CE6E397810B9817B005380DB /* BankKeyImageView.m in Sources */,
+				CE524D9E10BA8BC2006F80EF /* SimpleVJ.xcdatamodel in Sources */,
+				CE524DAC10BA8EC7006F80EF /* BankKeyDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEAD087C0F9048E500B61871 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAD087D0F9048E500B61871 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TakeoDesignFes_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = TakeoDesignFes;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TakeoDesignFes_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = SimpleVJ;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleVJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleVJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
