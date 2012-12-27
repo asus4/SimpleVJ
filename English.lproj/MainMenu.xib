@@ -4512,7 +4512,6 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<string key="NSFrame">{{453, 17}, {29, 26}}</string>
 							<reference key="NSSuperview" ref="137049311"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="541888086">
 								<int key="NSCellFlags">-2080244224</int>
@@ -5058,7 +5057,6 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<string key="NSFrame">{{13, 29}, {438, 124}}</string>
 						<reference key="NSSuperview" ref="358094793"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="786594001"/>
 						<object class="NSMutableArray" key="NSTabViewItems">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="NSTabViewItem" id="672493498">
@@ -5074,7 +5072,6 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 											<string key="NSFrame">{{160, 38}, {32, 34}}</string>
 											<reference key="NSSuperview" ref="786594001"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView"/>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSSliderCell" key="NSCell" id="190075712">
 												<int key="NSCellFlags">-2079981824</int>
@@ -5678,7 +5675,7 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<reference key="NSNextKeyView" ref="1015331207"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="499327896">
-							<int key="NSCellFlags">-2080244224</int>
+							<int key="NSCellFlags">-1543373312</int>
 							<int key="NSCellFlags2">134217728</int>
 							<string key="NSContents">Keyboard</string>
 							<reference key="NSSupport" ref="909958717"/>
