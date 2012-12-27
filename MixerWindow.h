@@ -1,10 +1,9 @@
 //
-//  MixerWindow.h
 //  SimpleVJ
 //
-//  Created by ibu on 09/09/07.
-//  Copyright 2009 東京芸術大学. All rights reserved.
+//  Created by asus4 on 09/09/07.
 //
+
 
 #import <Cocoa/Cocoa.h>
 

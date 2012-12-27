@@ -3,7 +3,6 @@
 //  SimpleVJ
 //
 //  Created by asus4 on 09/03/24.
-//  Copyright Koki Ibukuro 2009 . All rights reserved.
 //
 
 #import "AppController.h"
@@ -88,7 +87,6 @@
 		// DragDropImageView(オリジナル)からのアクション
 		filePath = [[NSString alloc] initWithString:[sender filePath]];
 	}
-	NSLog(@"seted   : %s",filePath);
 	
 	if([_pathA compare:filePath] != NSOrderedSame) { // movie changed
 		[qcView setValue:filePath forInputKey:@"pathA"];
@@ -111,7 +109,6 @@
 	if([sender isKindOfClass:[DragDropImageView class]]) {
 		filePath = [[NSString alloc] initWithString:[sender filePath]];
 	}
-	NSLog(@"settedddd   : %s",filePath);
 	if([_pathB compare:filePath] != NSOrderedSame) { // movie changed
 		[qcView setValue:filePath forInputKey:@"pathB"];
 		[self setQcTimeB:0.0f];
@@ -243,10 +240,8 @@
 
 - (void) enterFullscreen
 {
-	//NSLog([[NSScreen screens] description]);
 	[ qcWindow setFrame: [ [[NSScreen screens] lastObject] frame ] display:YES];
 	//ディスプレイサイズにwindowをセットする。
-	//[ qcWindow makeKeyAndOrderFront : self ];
 	[ qcWindow orderFront: self ];
 	//windowを最前面にする
 	_isFullscreen = YES;
@@ -267,9 +262,6 @@
 	_isFadeThreading = YES;
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	//float totalTime = [fadeTime floatValue];
-	//NSLog(@"%f",totalTime);
-	//float repeat = [fadeTime floatValue]* 60.0f;
 	float waitTime = autofadetime / 100;
 	float originVal = [fader floatValue];
 	float val;
@@ -303,10 +295,8 @@
 	[previewA setImage: [qcView valueForOutputKey:@"imageOutA"]];
 	[previewB setImage: [qcView valueForOutputKey:@"imageOutB"]];
 	float time; // 0.0 ~ 1.0 の範囲に変換する。
-	//time= [self getQcPositionA] / [self getQcDurationA];
 	time = [[qcView valueForOutputKey:@"moviePositionA"] floatValue] /  [[qcView valueForOutputKey:@"movieDurationA"] floatValue];
 	[positionA setFloatValue:time ];
-	//time= [self getQcPositionB] / [self getQcDurationB];
 	time = [[qcView valueForOutputKey:@"moviePositionB"] floatValue] /  [[qcView valueForOutputKey:@"movieDurationB"] floatValue];
 	[positionB setFloatValue:time ];
 }
@@ -317,35 +307,26 @@
 // ユーティリティー関数群
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - (float) getQcPatchTime {
-	//NSLog(@"patch time : %f", [[qcView valueForOutputKey:@"patchTime"] floatValue]);
 	return [[qcView valueForOutputKey:@"patchTime"] floatValue];	
 }
 - (float) getQcDurationA {
-	//NSLog(@"dur A : %f",  [[qcView valueForOutputKey:@"movieDurationA"] floatValue]);
 	return [[qcView valueForOutputKey:@"movieDurationA"] floatValue];
 }	
 - (float) getQcDurationB {
-	//NSLog(@"dur B : %f",  [[qcView valueForOutputKey:@"movieDurationB"] floatValue]);
 	return [[qcView valueForOutputKey:@"movieDurationB"] floatValue];
 }
 - (float) getQcPositionA {
-	//NSLog(@"pos A : %f",  [[qcView valueForOutputKey:@"moviePositionA"] floatValue]);
 	return [[qcView valueForOutputKey:@"moviePositionA"] floatValue];
 }
 - (float) getQcPositionB {
-	//NSLog(@"pos B : %f",  [[qcView valueForOutputKey:@"moviePositionB"] floatValue]);
 	return [[qcView valueForOutputKey:@"moviePositionB"] floatValue];
 }
 - (void) setQcTimeA:(float) time {
-	//NSLog(@"set time A : %f",  time);
 	time -= [self getQcPatchTime];
-	//NSLog(@"set realtime A : %f",  time);
 	[qcView setValue:[NSNumber numberWithFloat:time] forInputKey:@"timeA"];
 }
 - (void) setQcTimeB:(float) time {
-	//NSLog(@"set time B : %f",  time);
 	time -= [self getQcPatchTime];
-	//NSLog(@"set realtime B : %f",  time);
 	[qcView setValue:[NSNumber numberWithFloat:time] forInputKey:@"timeB"];
 }
 

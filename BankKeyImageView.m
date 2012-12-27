@@ -41,14 +41,6 @@
 		}
 	}
 	
-	//[[NSColor selectedControlColor] set];
-    //NSFrameRectWidthWidth([self visibleRect], 2.0);
-    
-	
-    	
-	
-	
-	
 	return NSDragOperationNone;
 }
 
@@ -63,9 +55,7 @@
 }
 
 - (BOOL) prepareForDragOperation:(id<NSDraggingInfo>)sender
-{
-	//NSLog(@"prepareForDragOperation");
-	
+{	
 	return YES;
 }
 

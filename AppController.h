@@ -37,11 +37,6 @@
 	
 	NSMutableString * _pathA;
 	NSMutableString * _pathB;
-	//BOOL	_loopA, _loopB;
-	//BOOL	_pauseA, _pauseB;
-	//float	_timeA, _timeB;
-	//float	_durationA, _durationB;
-	
 }
 
 - (IBAction) changePathA:(id)sender;			// パスA
