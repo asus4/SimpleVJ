@@ -1,10 +1,9 @@
 //
-//  BankKeyImageView.m
 //  SimpleVJ
 //
-//  Created by ibu on 09/11/22.
-//  Copyright 2009 東京芸術大学. All rights reserved.
+//  Created by asus4 on 09/11/22.
 //
+
 
 #import "BankKeyImageView.h"
 

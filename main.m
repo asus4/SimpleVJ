@@ -1,9 +1,7 @@
 //
-//  main.m
-//  TakeoDesignFes
+//  SimpleVJ
 //
-//  Created by ibu on 09/03/24.
-//  Copyright ?????? 2009. All rights reserved.
+//  Created by asus4 on 09/03/24.
 //
 
 #import <Cocoa/Cocoa.h>

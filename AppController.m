@@ -1,8 +1,8 @@
 //
 //  AppController.m
-//  TakeoDesignFes
+//  SimpleVJ
 //
-//  Created by ibu on 09/03/24.
+//  Created by asus4 on 09/03/24.
 //  Copyright Koki Ibukuro 2009 . All rights reserved.
 //
 

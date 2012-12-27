@@ -1,10 +1,9 @@
 //
-//  QcWindow.m
-//  TakeoDesignFes
+//  SimpleVJ
 //
-//  Created by ibu on 09/03/30.
-//  Copyright 2009 koki ibukuro. All rights reserved.
+//  Created by asus4 on 09/03/30.
 //
+
 
 #import "QcWindow.h"
 

@@ -1,9 +1,7 @@
 //
-//  QcWindow.h
-//  TakeoDesignFes
+//  SimpleVJ
 //
-//  Created by ibu on 09/03/30.
-//  Copyright 2009 東京芸術大学. All rights reserved.
+//  Created by asus4 on 09/03/30.
 //
 
 #import <Cocoa/Cocoa.h>
