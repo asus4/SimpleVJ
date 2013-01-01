@@ -38,7 +38,7 @@
 		849818220BCF1CE50085CECA /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		849818230BCF1CE50085CECA /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* TakeoDesignFes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeoDesignFes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* SimpleVJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31773A0F91F20C00EDD377 /* DragDropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropImageView.h; sourceTree = "<group>"; };
 		CE31773B0F91F20C00EDD377 /* DragDropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropImageView.m; sourceTree = "<group>"; };
 		CE33E8CB1054F46200ED9B7A /* MixerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixerWindow.h; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* TakeoDesignFes.app */,
+				8D1107320486CEB800E47090 /* SimpleVJ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			name = SimpleVJ;
 			productInstallPath = "$(HOME)/Applications";
 			productName = TakeoDesignFes;
-			productReference = 8D1107320486CEB800E47090 /* TakeoDesignFes.app */;
+			productReference = 8D1107320486CEB800E47090 /* SimpleVJ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +291,7 @@
 				INSTALL_PATH = /Applications;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OBJROOT = /Users/user/Desktop/VJ_Player/build;
-				PRODUCT_NAME = TakeoDesignFes;
+				PRODUCT_NAME = SimpleVJ;
 				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
