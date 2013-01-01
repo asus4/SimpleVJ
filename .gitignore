@@ -18,3 +18,6 @@ UserInterfaceState.xcuserstate
 
 # Windows image thumbnail file
 Thumbs.db
+
+# for Sublime Text
+*.sublime*
