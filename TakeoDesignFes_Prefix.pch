@@ -1,8 +1,0 @@
-//
-// Prefix header for all source files of the 'TakeoDesignFes' target in the 'TakeoDesignFes' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-	#import <Quartz/Quartz.h>
-#endif
