@@ -38,8 +38,6 @@
 	
 	_pathA = [[NSMutableString alloc] initWithCapacity:1];
 	_pathB = [[NSMutableString alloc] initWithCapacity:1];
-	//NSLog(_pathA);
-	//NSLog(_pathB);
 	
 }
 
