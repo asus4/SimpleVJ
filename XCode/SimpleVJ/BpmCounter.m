@@ -43,10 +43,16 @@ const float _MAX_INTERVAL = 5.0f;
 
 - (void) autoSwitch:(BOOL) doAuto {
     autoSwitch = doAuto;
+    if(doAuto) {
+        [self loop:nil];
+    }
 }
 
 
 - (void) loop:(NSDictionary*)param{
+    if(!autoSwitch) {
+        return;
+    }
     
     // update count
     if(count > 3) {
@@ -70,9 +76,8 @@ const float _MAX_INTERVAL = 5.0f;
     
     if(autoSwitch) {
         [delegate autoFade];
+        [self performSelector:@selector(loop:) withObject:nil afterDelay:delay];
     }
-    
-    [self performSelector:@selector(loop:) withObject:nil afterDelay:delay];
 }
 
 - (NSTimeInterval) bpmToTimeInterbal:(float)_bpm {
