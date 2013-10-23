@@ -9,8 +9,9 @@
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
 #import "DragDropImageView.h"
+#import "BpmCounter.h"
 
-@interface AppController : NSResponder//NSObject 
+@interface AppController : NSResponder <BpmCounterProtcol>
 {
 	IBOutlet NSWindow* qcWindow;	// フルスクリーンになるやつ
     IBOutlet QCView* qcView;		//
@@ -28,6 +29,11 @@
 	IBOutlet NSSlider* timescaleB;	// タイムスケール
 	IBOutlet NSImageView* previewA;	// プレビューウィンドウ
 	IBOutlet NSImageView* previewB;
+    
+    
+    IBOutlet NSLevelIndicator* bpmMeter;
+    IBOutlet NSTextField* bpmLabel;
+    IBOutlet NSButton* isAutoSwitch;
 	
 	NSPoint _initialLocation; // マウス座標。
 	BOOL	_isFullscreen;
@@ -37,6 +43,8 @@
 	
 	NSMutableString * _pathA;
 	NSMutableString * _pathB;
+    
+    BpmCounter* bpmCounter;
 }
 
 - (IBAction) changePathA:(id)sender;			// パスA
@@ -54,7 +62,11 @@
 - (IBAction) changeFade:(NSSlider*)sender;				// フェーダー(スライダー)かわる
 - (IBAction) changeFadeSpeed:(NSSlider*)sender;			// 自動フェードのフェードタイムを変える。
 														//けど、いまのところなんもしない。
+- (IBAction)toggleAutoFade:(id)sender;
 - (IBAction) autoFade:(NSButton*)sender;				// 自動的にフェード
+
+
+- (IBAction)clickAutoSwitch:(NSButton *)sender; // 自動BPMスイッチ
 
 - (void) autoFade;
 

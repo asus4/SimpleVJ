@@ -23,6 +23,7 @@
 		CE6E397210B97AC8005380DB /* BankKeyPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E397110B97AC8005380DB /* BankKeyPanel.m */; };
 		CE6E397810B9817B005380DB /* BankKeyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E397710B9817B005380DB /* BankKeyImageView.m */; };
 		CE6E39E610B9A5A8005380DB /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6E39E510B9A5A8005380DB /* QTKit.framework */; };
+		CE9A3ADF1817C713002C2498 /* BpmCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A3ADE1817C713002C2498 /* BpmCounter.m */; };
 		CEAD087E0F9048E500B61871 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD087C0F9048E500B61871 /* MainMenu.xib */; };
 		CEB914920F8A72D3007783D2 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB914900F8A72D3007783D2 /* pause.png */; };
 		CEFD10DC10B869F1004802D4 /* simplevj_icon512.icns in Resources */ = {isa = PBXBuildFile; fileRef = CEFD10DB10B869F1004802D4 /* simplevj_icon512.icns */; };
@@ -57,6 +58,8 @@
 		CE6E397710B9817B005380DB /* BankKeyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankKeyImageView.m; sourceTree = "<group>"; };
 		CE6E39E510B9A5A8005380DB /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		CE9020441692D882002DD618 /* SimpleVJ_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleVJ_Prefix.pch; sourceTree = "<group>"; };
+		CE9A3ADD1817C713002C2498 /* BpmCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BpmCounter.h; sourceTree = "<group>"; };
+		CE9A3ADE1817C713002C2498 /* BpmCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BpmCounter.m; sourceTree = "<group>"; };
 		CEAD087D0F9048E500B61871 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CEB914900F8A72D3007783D2 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		CEFD10DB10B869F1004802D4 /* simplevj_icon512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = simplevj_icon512.icns; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				CE6E397710B9817B005380DB /* BankKeyImageView.m */,
 				CE524DAA10BA8EC7006F80EF /* BankKeyDelegate.h */,
 				CE524DAB10BA8EC7006F80EF /* BankKeyDelegate.m */,
+				CE9A3ADD1817C713002C2498 /* BpmCounter.h */,
+				CE9A3ADE1817C713002C2498 /* BpmCounter.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 				CE6E397810B9817B005380DB /* BankKeyImageView.m in Sources */,
 				CE524D9E10BA8BC2006F80EF /* SimpleVJ.xcdatamodel in Sources */,
 				CE524DAC10BA8EC7006F80EF /* BankKeyDelegate.m in Sources */,
+				CE9A3ADF1817C713002C2498 /* BpmCounter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

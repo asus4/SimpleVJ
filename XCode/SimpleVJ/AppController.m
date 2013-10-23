@@ -38,7 +38,12 @@
 	
 	_pathA = [[NSMutableString alloc] initWithCapacity:1];
 	_pathB = [[NSMutableString alloc] initWithCapacity:1];
-	
+    
+    
+    NSLog(@"fasdfasdaslkd");
+    NSLog(@"fawfa %@ %@", previewA, bpmMeter);
+    bpmCounter = [[BpmCounter alloc] initWithBpmLabel:bpmLabel meter:bpmMeter listener:self];
+//    [bpmCounter start];
 }
 
 - (void)windowWillClose:(NSNotification *)notification 
@@ -207,11 +212,32 @@
 	// なんもしないよ。
 }
 
+- (IBAction)toggleAutoFade:(id)sender {
+    if(isAutoSwitch.state == NSOnState) {
+        [isAutoSwitch setState:NSOffState];
+    }
+    else {
+        [isAutoSwitch setState:NSOnState];
+    }
+    [self clickAutoSwitch:isAutoSwitch];
+}
+
 - (IBAction) autoFade:(NSButton*)sender
 {
+    [isAutoSwitch setState:NSOffState];
+    [bpmCounter update];
 	[self autoFade];
 }
 
+
+- (IBAction)clickAutoSwitch:(NSButton *)sender {
+    if(sender.state == NSOnState) {
+        [bpmCounter autoSwitch:YES];
+    }
+    else {
+        [bpmCounter autoSwitch:NO];
+    }
+}
 
 - (void) autoFade
 {
